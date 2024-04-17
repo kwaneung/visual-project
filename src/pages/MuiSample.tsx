@@ -1,9 +1,5 @@
 const MuiSample = () => {
-    return (
-        <>
-            asdfasdfs
-        </>
-    )
-}
+  return <>asdfasdfs</>;
+};
 
-export default MuiSample
+export default MuiSample;
