@@ -10,9 +10,11 @@ const MuiSample = () => {
       <Button variant="contained" onClick={() => navigate(-1)}>
         Go Back
       </Button>
-      <button>
-        <Link to="/dashboard">Go Dashboard</Link>
-      </button>
+      <br />
+      <br />
+      <Button variant="contained" href="/dashboard">
+        Go Dashboard
+      </Button>
     </>
   );
 };
